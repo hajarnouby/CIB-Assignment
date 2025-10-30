@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    list-style: none;
+        display: flex;
+    flex-direction: row;
+    gap: 5%;
+    text-wrap: nowrap;
+}
+header{
+    background-color:#032D62 ;
+    padding: 24px;
+    
+}
