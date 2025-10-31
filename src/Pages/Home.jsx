@@ -7,6 +7,7 @@ import bghome from "../Assets/images/bannerbg.svg"
 import Small from '../Common/Minimenu';
 import Sub from '../Common/Subtitle';
 import Title from '../Common/Sectiontitle';
+import Card from '../Common/Card';
 const Home = () => {
     return ( 
         <body>
@@ -38,7 +39,11 @@ const Home = () => {
  <Sub title="APPLY ONLINE"/>
 <Title title="Apply online now for cards and loans with ease!"/>
 </div>
-
+<div className='div4 row div5 sp2'>
+        <Card title="Apply for a New Account"/>
+        <Card title="Apply for a card"/>
+        <Card title="Apply for a loan or overdraft"/>
+</div>
 
         </body>
 
