@@ -10,6 +10,12 @@ import Title from '../Common/Sectiontitle';
 import Card from '../Common/Card';
 import Center from '../Common/Centercard';
 import News from '../Common/News';
+import men from "../Assets/images/men.svg"
+import logo from "../Assets/images/logo.svg"
+import Word from '../Common/Footerlink';
+import fbg from "../Assets/images/footerbg.svg"
+import play from "../Assets/images/play.svg"
+import app from "../Assets/images/app.svg"
 const Home = () => {
     return ( 
         <body>
@@ -18,7 +24,7 @@ const Home = () => {
         <img className='img1' src={bghome} alt="bg"/>
     <div className='div2'>
         <h3 className='sp1'>CIB</h3>
-        <p className='sp1'>Delivering value to our clients, our <br />
+        <p className='sp1 wh'>Delivering value to our clients, our <br />
         community and our shareholders
         </p>
         <Button title="Discover More"/>
@@ -53,7 +59,8 @@ const Home = () => {
 </div>
 <div className='div4 row div5 sp2'>
         <Center value="Buying a home can be an emotional process, but it&;s important to approach it logically" title="Buying and making a home"/>
-        <Center value="So for all of you travelers, take a vacation without spending a fortune with these helpful  tips and tricks:" title="Traveling on a budget"/>
+        <Center value="So for all of you travelers, take a vacation without import Foot from './../Common/Footerlink';
+spending a fortune with these helpful  tips and tricks:" title="Traveling on a budget"/>
         <Center value="The impact of a good education can be transformative." title="University life tips"/>
 </div>
 
@@ -68,6 +75,54 @@ const Home = () => {
         </div>
 
 </div>
+
+{/* five */}
+{/* <div className='aa'>
+        <img src={men} alt="men shaking hands" />
+        <div className='bb'>
+            
+
+        </div>
+
+</div> */}
+
+{/* footer */}
+<footer>
+        <img className='img1 img3' src={fbg} alt="footer bg" />
+    <div className='one sp4'>
+    <img src={logo} alt="logo" />
+    </div>
+    <div className='col sp4'>
+    <Word title="FAQ"/>
+    <Word title="Learning Center"/>
+    <Word title="Fees & Charges"/>
+    <Word title="Terms & Conditions"/>
+
+    </div>
+    <div className='col sp4'>
+    <Word title="Local"/>
+    <Word title="Abroad"/>
+    <Word title="Business"/>
+    <Word title="Corporate"/>
+
+    </div>
+    <div className='col sp4'>
+    <Word title="Careers"/>
+    <Word title="Why CIB?"/>
+    <Word title="Email us"/>
+    <Word title="System Status"/>
+    </div>
+    <div className='row'>
+    <img className='img' src={play} alt="playstore" />
+    <img className='img' src={app} alt="app store" />
+    </div>
+</footer>
+<div className='last'>
+    <p className='p90'>Copyright © 2025 Commercial International Bank</p>
+</div>
+
+
+
 
 
 
