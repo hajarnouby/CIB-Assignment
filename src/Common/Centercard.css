@@ -1,0 +1,23 @@
+.cen{
+    background-color: #FFF;
+    padding: 5%;
+    text-align: left;
+        gap: 5%;
+
+}
+.read{
+    color: #333;
+    text-decoration: underline solid #333 1px;
+    font-weight: 200;
+    float: left;
+    padding-top: 5%;
+}
+.txt2{
+    color: #1858A8;
+    font-weight: 700;
+    padding-bottom: 5%;
+    
+}
+.all{
+    width: 23%;
+}
