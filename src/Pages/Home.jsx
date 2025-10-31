@@ -5,6 +5,7 @@ import Nav from '../Components/Nav';
 import Button from '../Common/Button';
 import bghome from "../Assets/images/bannerbg.svg"
 import Small from '../Common/Minimenu';
+import Sub from '../Common/Subtitle';
 const Home = () => {
     return ( 
         <body>
@@ -30,10 +31,12 @@ const Home = () => {
         <Small title="Sustainable Finance"/>
         <Small title="Awards"/>
 
+</div>
+{/* three */}
+<div className='div4'>
+ <Sub title="APPLY ONLINE"/>
 
 </div>
-
-
 
 
         </body>

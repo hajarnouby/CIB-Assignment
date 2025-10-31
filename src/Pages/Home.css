@@ -43,3 +43,9 @@ margin-bottom: 5%;
 .page{
     padding: 0 2%;
 }
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
