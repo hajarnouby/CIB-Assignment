@@ -9,6 +9,7 @@ import Sub from '../Common/Subtitle';
 import Title from '../Common/Sectiontitle';
 import Card from '../Common/Card';
 import Center from '../Common/Centercard';
+import News from '../Common/News';
 const Home = () => {
     return ( 
         <body>
@@ -56,8 +57,17 @@ const Home = () => {
         <Center value="The impact of a good education can be transformative." title="University life tips"/>
 </div>
 
+{/* five */}
+<div className='div4 sp1 page'>
+        <Title title="News"/>
+        <div className='div4 ce'>
+        <News title="Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"  value="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"    placeholder="CIB, Egypt's leading and largest private sector bank, has successfully partnered with CI Capital to complete the seventh issuance for Halan Consumer Finance,valued at EGP 3.4 billion. "/>
+        <News title="Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"  value="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"    placeholder="CIB, Egypt's leading and largest private sector bank, has successfully partnered with CI Capital to complete the seventh issuance for Halan Consumer Finance,valued at EGP 3.4 billion. "/>
+        <News title="Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"  value="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan Consumer Finance, Worth EGP 3.4 Billion"    placeholder="CIB, Egypt's leading and largest private sector bank, has successfully partnered with CI Capital to complete the seventh issuance for Halan Consumer Finance,valued at EGP 3.4 billion. "/>
 
+        </div>
 
+</div>
 
 
 
