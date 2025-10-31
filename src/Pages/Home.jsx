@@ -4,6 +4,7 @@ import "../Components/Nav"
 import Nav from '../Components/Nav';
 import Button from '../Common/Button';
 import bghome from "../Assets/images/bannerbg.svg"
+import Small from '../Common/Minimenu';
 const Home = () => {
     return ( 
         <body>
@@ -16,12 +17,20 @@ const Home = () => {
         community and our shareholders
         </p>
         <Button title="Discover More"/>
+
     </div>
 </div>
 {/* section 2 */}
 
-<div className='div3'>
-    
+<div className='page div3'>
+            <Small title="Apply Onine"/>
+        <Small title="News"/>
+        <Small title="Blog Articles"/>
+        <Small title="CIB International"/>
+        <Small title="Sustainable Finance"/>
+        <Small title="Awards"/>
+
+
 </div>
 
 
