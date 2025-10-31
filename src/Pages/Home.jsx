@@ -6,6 +6,7 @@ import Button from '../Common/Button';
 import bghome from "../Assets/images/bannerbg.svg"
 import Small from '../Common/Minimenu';
 import Sub from '../Common/Subtitle';
+import Title from '../Common/Sectiontitle';
 const Home = () => {
     return ( 
         <body>
@@ -35,7 +36,7 @@ const Home = () => {
 {/* three */}
 <div className='div4'>
  <Sub title="APPLY ONLINE"/>
-
+<Title title="Apply online now for cards and loans with ease!"/>
 </div>
 
 
